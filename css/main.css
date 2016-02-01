@@ -1,0 +1,111 @@
+body {
+  background-image: url("../images/wallpaper_default.jpg");
+  background-size: 100% 100%;
+  color: #ffffff;
+  #font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+  #font-family: 'Cabin Sketch', cursive;
+  font-family: 'Maven Pro', sans-serif;
+  #font-family: 'Poiret One', cursive;
+  font-size: 300%;
+}
+#pageContent {
+  /*clear the menu bar */
+  margin-top: 65px;
+  
+}
+.currentTimeNat {
+  font-size: 120%;
+  font-weight: bold;
+  background-color: #000;
+  clear: both;
+  float: left;
+}
+.currentWeather {
+  font-size: 120%;
+  font-weight: bold;
+  background-color: #000;
+  clear: both;
+  float: left;
+  
+}
+.currentStockPrice {
+  font-size: 120%;
+  font-weight: bold;
+  background-color: #000;
+  clear: both;
+  float: left;
+}
+
+div#time {
+  float: left;
+  
+}
+div#stocks {
+  float: left;
+  clear: left;
+  padding-top: 1em;
+}
+div#weather {
+  float: right;
+  
+  
+}
+
+div#navContainer {
+  text-align: right;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
+div#navContainer span {
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  color: black;
+  
+}
+
+/*Style the navigation bar*/
+ul#navigation {
+  list-style-type: none;
+  margin: 0 0 0 0;
+
+  padding: 10px 0px 15px 0px;
+
+  font-size: 50%;
+  font-weight: bold;
+  
+  
+  background-color: white;
+   
+  
+}
+ul#navigation li {
+  display: inline;
+  
+}
+
+ul#navigation li a {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    /*border-radius: 4px 4px 0 0;*/
+  
+}
+
+ul#navigation li a.selected {
+    background-color: #ccc;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    /*border-radius: 4px 4px 0 0;*/
+  
+}
+
+ul#navigation li a:hover {
+    background-color: orange;
+}

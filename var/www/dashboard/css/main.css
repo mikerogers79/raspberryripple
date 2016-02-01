@@ -1,0 +1,45 @@
+body {
+  background-image: url("../images/wallpaper_default.jpg");
+  background-size: 100% 100%;
+  color: #ffffff;
+  #font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 300%;
+}
+.currentTimeNat {
+  font-size: 150%;
+  font-weight: bold;
+  background-color: #000;
+  clear: both;
+  float: left;
+}
+.currentWeather {
+  font-size: 150%;
+  font-weight: bold;
+  background-color: #000;
+  clear: both;
+  float: left;
+  
+}
+.currentStockPrice {
+  font-size: 150%;
+  font-weight: bold;
+  background-color: #000;
+  clear: both;
+  float: left;
+}
+
+div#time {
+  float: left;
+  
+}
+div#stocks {
+  float: left;
+  clear: left;
+  padding-top: 1em;
+}
+div#weather {
+  float: right;
+  
+  
+}
